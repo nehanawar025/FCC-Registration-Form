@@ -7,6 +7,9 @@ body {
   }
   
   label {
-    display: block;
+    display: flex;
     margin: 0.5rem 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center
   }
